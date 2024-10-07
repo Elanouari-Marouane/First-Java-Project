@@ -1,0 +1,44 @@
+To create the `HelloWorld.java` file using the Linux terminal, you can follow these steps:
+
+1. **Open your Terminal**: You can usually find the terminal in your applications menu, or you can use a keyboard shortcut like `Ctrl + Alt + T`.
+
+2. **Navigate to Your Desired Directory**: Use the `cd` command to change to the directory where you want to create the file. For example, to navigate to the Documents folder, you can run:
+   ```bash
+   cd ~/Documents
+   ```
+
+3. **Create the Java File**: Use a text editor like `nano` or `vim` to create and edit the file. Here’s how to do it with `nano`:
+   ```bash
+   nano HelloWorld.java
+   ```
+
+4. **Copy and Paste the Code**: Once you’re in the `nano` editor, paste the following code:
+
+   ```java
+   public class HelloWorld {
+       public static void main(String[] args) {
+           System.out.println("Hello, World!");
+       }
+   }
+   ```
+
+5. **Save the File**:
+   - In `nano`, press `Ctrl + O` to write the changes to the file, then press `Enter` to confirm.
+   - Press `Ctrl + X` to exit the editor.
+
+6. **Compile and Run the Program**:
+   - To compile the program, run:
+     ```bash
+     javac HelloWorld.java
+     ```
+   - To run the program, use:
+     ```bash
+     java HelloWorld
+     ```
+
+You should see the output:
+```
+Hello, World!
+```
+
+Let me know if you need any further assistance!
